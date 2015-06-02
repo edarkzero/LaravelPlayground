@@ -1,0 +1,17 @@
+[2015-05-31 23:47:27] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Foundation\Application::getCachedCompilePath()' in D:\Wamp\www\laravelTest\vendor\laravel\framework\src\Illuminate\Foundation\Console\ClearCompiledCommand.php:28
+Stack trace:
+#0 D:\Wamp\www\laravelTest\vendor\compiled.php(1743): Symfony\Component\Debug\Exception\FatalErrorException->__construct()
+#1 D:\Wamp\www\laravelTest\vendor\compiled.php(1738): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError()
+#2 D:\Wamp\www\laravelTest\vendor\compiled.php(0): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#3 D:\Wamp\www\laravelTest\vendor\compiled.php(925): Illuminate\Foundation\Console\ClearCompiledCommand->fire()
+#4 D:\Wamp\www\laravelTest\vendor\compiled.php(925): call_user_func_array:{D:\Wamp\www\laravelTest\vendor\compiled.php:925}()
+#5 D:\Wamp\www\laravelTest\vendor\laravel\framework\src\Illuminate\Console\Command.php(115): Illuminate\Container\Container->call()
+#6 D:\Wamp\www\laravelTest\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(257): Illuminate\Console\Command->execute()
+#7 D:\Wamp\www\laravelTest\vendor\laravel\framework\src\Illuminate\Console\Command.php(101): Symfony\Component\Console\Command\Command->run()
+#8 D:\Wamp\www\laravelTest\vendor\symfony\console\Symfony\Component\Console\Application.php(874): Illuminate\Console\Command->run()
+#9 D:\Wamp\www\laravelTest\vendor\symfony\console\Symfony\Component\Console\Application.php(195): Symfony\Component\Console\Application->doRunCommand()
+#10 D:\Wamp\www\laravelTest\vendor\symfony\console\Symfony\Component\Console\Application.php(126): Symfony\Component\Console\Application->doRun()
+#11 D:\Wamp\www\laravelTest\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(94): Symfony\Component\Console\Application->run()
+#12 D:\Wamp\www\laravelTest\artisan(36): Illuminate\Foundation\Console\Kernel->handle()
+#13 D:\Wamp\www\laravelTest\artisan(0): {main}()
+#14 {main}  

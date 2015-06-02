@@ -1,0 +1,48 @@
+[2015-05-30 01:08:51] local.ERROR: exception 'ErrorException' with message 'mcrypt_encrypt(): Size of key is too large for this algorithm' in D:\Wamp\www\laravelTest\vendor\compiled.php:11823
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'mcrypt_encrypt(...', 'D:\\Wamp\\www\\lar...', 11823, Array)
+#1 D:\Wamp\www\laravelTest\vendor\compiled.php(11823): mcrypt_encrypt('rijndael-128', 'fe8123yTf834por...', 's:40:"FBUsJ85Cn...', 'cbc', '[\xA5(b\xF2%\xBE\xD9\xC9\x93\xC4'\x16\xD4L...')
+#2 D:\Wamp\www\laravelTest\vendor\compiled.php(11816): Illuminate\Encryption\Encrypter->padAndMcrypt('FBUsJ85Cn8Pdomc...', '[\xA5(b\xF2%\xBE\xD9\xC9\x93\xC4'\x16\xD4L...')
+#3 D:\Wamp\www\laravelTest\vendor\compiled.php(11766): Illuminate\Encryption\Encrypter->encrypt('FBUsJ85Cn8Pdomc...')
+#4 D:\Wamp\www\laravelTest\vendor\compiled.php(11738): Illuminate\Cookie\Middleware\EncryptCookies->encrypt(Object(Illuminate\Http\Response))
+#5 D:\Wamp\www\laravelTest\vendor\compiled.php(8944): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#6 D:\Wamp\www\laravelTest\vendor\compiled.php(2478): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#7 D:\Wamp\www\laravelTest\vendor\compiled.php(8944): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#8 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#9 D:\Wamp\www\laravelTest\vendor\compiled.php(8935): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#10 D:\Wamp\www\laravelTest\vendor\compiled.php(1891): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#11 D:\Wamp\www\laravelTest\vendor\compiled.php(1880): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#12 D:\Wamp\www\laravelTest\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#13 {main}  
+[2015-05-30 01:08:55] local.ERROR: exception 'ErrorException' with message 'mcrypt_encrypt(): Size of key is too large for this algorithm' in D:\Wamp\www\laravelTest\vendor\compiled.php:11823
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'mcrypt_encrypt(...', 'D:\\Wamp\\www\\lar...', 11823, Array)
+#1 D:\Wamp\www\laravelTest\vendor\compiled.php(11823): mcrypt_encrypt('rijndael-128', 'fe8123yTf834por...', 's:40:"QsGf2uGNM...', 'cbc', '\xFC\xF8F#B\x99F\xA9\xF5\xDFP9~\xAF0...')
+#2 D:\Wamp\www\laravelTest\vendor\compiled.php(11816): Illuminate\Encryption\Encrypter->padAndMcrypt('QsGf2uGNMRkp6Kf...', '\xFC\xF8F#B\x99F\xA9\xF5\xDFP9~\xAF0...')
+#3 D:\Wamp\www\laravelTest\vendor\compiled.php(11766): Illuminate\Encryption\Encrypter->encrypt('QsGf2uGNMRkp6Kf...')
+#4 D:\Wamp\www\laravelTest\vendor\compiled.php(11738): Illuminate\Cookie\Middleware\EncryptCookies->encrypt(Object(Illuminate\Http\Response))
+#5 D:\Wamp\www\laravelTest\vendor\compiled.php(8944): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#6 D:\Wamp\www\laravelTest\vendor\compiled.php(2478): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#7 D:\Wamp\www\laravelTest\vendor\compiled.php(8944): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#8 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#9 D:\Wamp\www\laravelTest\vendor\compiled.php(8935): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#10 D:\Wamp\www\laravelTest\vendor\compiled.php(1891): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#11 D:\Wamp\www\laravelTest\vendor\compiled.php(1880): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#12 D:\Wamp\www\laravelTest\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#13 {main}  
+[2015-05-30 01:08:55] local.ERROR: exception 'ErrorException' with message 'mcrypt_encrypt(): Size of key is too large for this algorithm' in D:\Wamp\www\laravelTest\vendor\compiled.php:11823
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'mcrypt_encrypt(...', 'D:\\Wamp\\www\\lar...', 11823, Array)
+#1 D:\Wamp\www\laravelTest\vendor\compiled.php(11823): mcrypt_encrypt('rijndael-128', 'fe8123yTf834por...', 's:40:"v8YUI7ydi...', 'cbc', '\xE2\xC9\xE1L\x11\xC1]e\x0E\xB0\xAF\x1DF\xE9\x8C...')
+#2 D:\Wamp\www\laravelTest\vendor\compiled.php(11816): Illuminate\Encryption\Encrypter->padAndMcrypt('v8YUI7ydiQzyxur...', '\xE2\xC9\xE1L\x11\xC1]e\x0E\xB0\xAF\x1DF\xE9\x8C...')
+#3 D:\Wamp\www\laravelTest\vendor\compiled.php(11766): Illuminate\Encryption\Encrypter->encrypt('v8YUI7ydiQzyxur...')
+#4 D:\Wamp\www\laravelTest\vendor\compiled.php(11738): Illuminate\Cookie\Middleware\EncryptCookies->encrypt(Object(Illuminate\Http\Response))
+#5 D:\Wamp\www\laravelTest\vendor\compiled.php(8944): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#6 D:\Wamp\www\laravelTest\vendor\compiled.php(2478): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#7 D:\Wamp\www\laravelTest\vendor\compiled.php(8944): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#8 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#9 D:\Wamp\www\laravelTest\vendor\compiled.php(8935): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#10 D:\Wamp\www\laravelTest\vendor\compiled.php(1891): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#11 D:\Wamp\www\laravelTest\vendor\compiled.php(1880): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#12 D:\Wamp\www\laravelTest\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#13 {main}  
