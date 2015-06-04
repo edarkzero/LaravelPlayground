@@ -35,6 +35,11 @@ Route::get('profile/{user}', ['as'=> 'profile',function(App\User $user)
     return $user;
 }]);
 
+Route::get('age/{x}', ['middleware' => 'age', function($age)
+{
+
+}])->where(['x' => '[0-9]+']);
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

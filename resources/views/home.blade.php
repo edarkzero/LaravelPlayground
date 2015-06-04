@@ -9,6 +9,9 @@
 
 				<div class="panel-body">
 					You are logged in! See your profile here: <a href="{{url('profile/'.Auth::user()->name)}}">Click me!</a>
+					<br><a href="{{url('route/69/sexy')}}">Route test with {ID} and {name} params</a>
+					<br><a href="{{url('age/100')}}">Age Middleware test invalid</a>
+					<br><a href="{{url('age/400')}}">Age Middleware test valid</a>
 				</div>
 			</div>
 		</div>
