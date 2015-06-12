@@ -13,6 +13,19 @@
 					<br><a href="{{url('age/100')}}">Age Middleware test invalid</a>
 					<br><a href="{{url('age/400')}}">Age Middleware test valid</a>
 				</div>
+
+				<?php
+				 $users = \Illuminate\Support\Facades\DB::table('users')->paginate(2);
+				 $users->setPath('home');
+				?>
+
+				<div class="container">
+                    @foreach ($users as $user)
+                        {{ $user->name }}
+                    @endforeach
+                </div>
+
+                {!! $users->render() !!}
 			</div>
 		</div>
 	</div>
