@@ -59,6 +59,7 @@ return [
 			'database'  => env('DB_DATABASE', 'test'),
 			'username'  => env('DB_USERNAME', 'root'),
 			'password'  => env('DB_PASSWORD', '123456'),
+            'port' => env('DB_PORT','3307'),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_bin',
 			'prefix'    => '',
